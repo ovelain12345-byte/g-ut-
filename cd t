@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int пеес;
+	cout << "Программа 'Временна года'" << endl; 
+	cout << "1лето" << endl;
+	cout << "2весна" << endl;
+	cout << "3зима" << endl;
+	cout << "4осень" << endl;
+	cout << "Введите число:" << endl;
+	cin >> пеес;
+
+	if (пеес == 1) {
+		cout << "Лето. Жарко" << endl;
+	}
+	else if (пеес == 2) {
+		cout << "Весна. Мокро" << endl;
+	}
+	else if (пеес == 3) {
+		cout << "Зима. Холода" << endl;
+	}
+	else if (пеес == 4) {
+		cout << "Осень. Листопад" << endl;
+	}
+	else {
+		cout << "Число дурак, Число" << endl;
+	}
+	return 0;
+}
